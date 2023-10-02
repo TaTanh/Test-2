@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main()
+{
+	int n;
+	cin >> n;
+	int t = n;
+	while (t % 2 == 0)
+		t = t / 2;
+	cout << t;
+	return 0;
+}
